@@ -1,0 +1,39 @@
+.single-course{
+    height:400px;
+    width:30%;
+    float:left;
+    padding:27px;
+    margin:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    border-radius:5px;
+    box-shadow:5px 5px 10px lightgray, -5px -5px 10px lightgray ;
+    
+}
+.single-course img{
+    height:135px;
+    
+}
+.course-title, .course-description{
+    width:240px;
+}
+.course-title{
+    font-size:17px;
+    line-height:22px;
+    
+    color:rgb(37, 37, 37);
+}
+.course-description{
+    color:rgb(85, 78, 78);
+}
+.enroll-button{
+    outline:none;
+    border:none;
+    border-radius:5px;
+    padding:3px 15px;
+    background:rgba(12, 102, 180, 0.516);;
+    color:whitesmoke;
+    cursor:pointer;
+    font-weight:500;
+}
