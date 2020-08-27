@@ -25,7 +25,7 @@ function App() {
         <Header/>
         
       </div>
-      <h3 className="title text-center text-info">Hedemy! Worlds No.1 Learning Platform</h3>
+      <h3 className="title text-center text-dark">Let's Start Learning with Hedemy!</h3>
       <div className="course-container">
         
         <div className="course-details ">
@@ -44,6 +44,7 @@ function App() {
           <Cart totalCost={totalCost} totalEnrolled={totalEnrolled} />
         </div>
       </div>
+      
     </div>
   );
 }
