@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import CourseData from "./CourseData";
 import Courses from "./Components/Courses/Courses";
