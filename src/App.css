@@ -3,9 +3,13 @@
   width:100%;
   
 }
-.course-details{
- 
-
+.title{
+  margin-right:300px;
+  padding:15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fullpage{
+  background:rgba(117, 209, 252, 0.397);
 }
 .header-title{
   margin:0;
@@ -13,6 +17,15 @@
 .cart{
   width:100%;
   border-left:1px solid lightgray;
-  
- 
+  position: sticky;
+  height:100%;
+  top:70px;
+    
+    
+}
+.header{
+  margin-bottom:30px;
+  position:sticky;
+  top:0;
+  z-index: 1;
 }

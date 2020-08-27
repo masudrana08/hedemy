@@ -5,8 +5,9 @@ const Cart = (props) => {
 
     return (
         <div className="cart-container">
-            <h3 className="order-summary">Order Summary</h3>
-            <h4 className="total-order">Total Order : {props.totalEnrolled.length}</h4>
+            <h4 className="order-summary">Order Summary</h4>
+            <h6 className="total-order">Total Order : {props.totalEnrolled.length}</h6>
+        <h6 className="total-cost">Total Cost : {props.totalCost}$</h6>
 
         {
             props.totalEnrolled.map(course=>{
@@ -15,8 +16,8 @@ const Cart = (props) => {
                     <div className="added-cart">
 
                         <div className="added-cart-details">
-                            <h5>{title}</h5>
-                            <h4 className="cart-price">Price: {price}$</h4>
+                            <h5 className="added-cart-title">{title}</h5>
+                            <h6 className="cart-price">Price: {price}$</h6>
                         </div>
                         <div>
                             <img src={img} alt=""/>
@@ -27,7 +28,7 @@ const Cart = (props) => {
                 )
             })
         }
-        <h4 className="total-cost">Total Cost : {props.totalCost}$</h4>
+        
         </div>
     );
 };
